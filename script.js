@@ -3,7 +3,7 @@ function scrollToContact() {
   document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
 }
 
-// Scroll reveal animation (premium feel)
+// Scroll reveal animation
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
