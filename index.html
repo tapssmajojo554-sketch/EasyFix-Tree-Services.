@@ -1,150 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EasyFix Tree Services – Tree Care in Cape Town & Western Cape</title>
-    <meta name="description" content="EasyFix Tree Services offers professional tree pruning, trimming, removal, stump grinding and tree care across Cape Town and the Western Cape. Contact us for a quote.">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>EasyFix Tree Services | Cape Town</title>
+<meta name="description" content="Professional tree removal, trimming & pruning in Cape Town & Western Cape." />
 
-    <!-- Structured Data (LocalBusiness Schema) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "TreeService",
-      "name": "EasyFix Tree Services",
-      "telephone": "+27729918350",
-      "email": "mafanayako@gmail.com",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Cape Town",
-        "addressRegion": "Western Cape",
-        "addressCountry": "ZA"
-      },
-      "areaServed": {
-        "@type": "Place",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Cape Town",
-          "addressRegion": "Western Cape",
-          "addressCountry": "ZA"
-        }
-      },
-      "openingHours": [
-        "Mo-Fr 08:00-17:00",
-        "Sa 08:00-13:00"
-      ],
-      "url": "https://easy-fix-tree-services.vercel.app/",
-      "sameAs": [
-        "https://www.facebook.com/people/Easyfix-tree-service/61586846340564/"
-      ]
-    }
-    </script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body { font-family: 'Inter', sans-serif; margin:0; padding:0; color:#333; }
-        header, section { padding: 20px 0; }
-        .container { width:90%; max-width:1200px; margin:auto; }
-        .hero { background:#f7f9f9; text-align:center; padding:60px 0; }
-        .hero h1 { font-size:2.6rem; margin-bottom:15px;}
-        .btn-primary { background:#2D5016; color:#fff; padding:12px 22px; border:none; border-radius:4px; font-weight:600; cursor:pointer;}
-        .btn-secondary { background:#555; color:#fff; padding:10px 20px; border-radius:4px; text-decoration:none; margin-left:8px;}
-        .services-grid, .testimonials-grid { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
-        .service-card, .testimonial-card { background:#fff; border:1px solid #e2e2e2; padding:20px; border-radius:6px; flex:1 1 250px; }
-        .service-card h3 { margin-top:0; color:#2D5016; }
-        .testimonial-card { font-style:italic; }
-        footer { background:#2D5016; color:#fff; text-align:center; padding:16px 0; }
-        @media(max-width:768px) { .hero h1 { font-size:2rem; } .services-grid, .testimonials-grid { flex-direction:column; } }
-    </style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+<script defer src="./script.js"></script>
 </head>
 <body>
 
-    <!-- Header & Nav -->
-    <header>
-        <div class="container">
-            <nav style="display:flex; justify-content:space-between; align-items:center;">
-                <a href="#"><strong>EasyFix Tree Services</strong></a>
-                <div>
-                    <a class="btn-secondary" href="#services">Services</a>
-                    <a class="btn-secondary" href="#contact">Contact</a>
-                    <a class="btn-primary" href="https://wa.me/27729918350">WhatsApp</a>
-                </div>
-            </nav>
-        </div>
-    </header>
+<!-- HEADER -->
+<header>
+  <div class="container header-content">
+    <img src="./logo.png" alt="EasyFix Tree Services Logo" class="logo floating-logo">
+    <nav class="nav-menu">
+      <a href="#services">Services</a>
+      <a href="#work">Our Work</a>
+      <a href="#contact">Contact</a>
+      <a class="btn-primary" href="https://wa.me/27729918350">WhatsApp</a>
+    </nav>
+  </div>
+</header>
 
-    <!-- Hero -->
-    <section class="hero">
-        <div class="container">
-            <h1>Tree Care Services in Cape Town & Western Cape</h1>
-            <p>Professional pruning, trimming, removal & stump grinding.</p>
-            <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({ behavior:'smooth' });">Get a Quote</button>
-            <a class="btn-secondary" href="https://wa.me/27729918350">WhatsApp Us</a>
-        </div>
-    </section>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-overlay"></div>
 
-    <!-- Services -->
-    <section id="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="services-grid">
-                <div class="service-card"><h3>Tree Pruning</h3><p>Improve growth and shape while removing dead wood.</p></div>
-                <div class="service-card"><h3>Tree Removal</h3><p>Safe removal of hazardous or unwanted trees.</p></div>
-                <div class="service-card"><h3>Stump Grinding</h3><p>Remove stumps from yards or sites for landscaping.</p></div>
-                <div class="service-card"><h3>Tree Health Support</h3><p>Assessment and support for long-term tree care.</p></div>
-            </div>
-        </div>
-    </section>
+  <div class="container hero-content">
+    <h1>Tree Services Done Right</h1>
+    <p>Safe, professional tree removal & trimming across Cape Town & Western Cape</p>
 
-    <!-- Testimonials -->
-    <section>
-        <div class="container">
-            <h2>What Clients Say</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">"Very professional and reliable tree service. Quick response." – Local Cape Town resident</div>
-                <div class="testimonial-card">"Great care and safe work on tree pruning." – Customer in Western Cape</div>
-            </div>
-        </div>
-    </section>
+    <div class="hero-buttons">
+      <button class="btn-primary" onclick="scrollToContact()">Get a Quote</button>
+      <a class="btn-outline" href="https://wa.me/27729918350">WhatsApp Us</a>
+    </div>
+  </div>
+</section>
 
-    <!-- FAQ -->
-    <section>
-        <div class="container">
-            <h2>Frequently Asked Questions</h2>
-            <p><strong>When should a tree be removed?</strong> Signs include structural weakness, disease or hazard risk.</p>
-            <p><strong>How do I book a service?</strong> Contact us via phone or WhatsApp for a free estimate.</p>
-        </div>
-    </section>
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
 
-    <!-- Contact -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>Call or message to get a detailed quote.</p>
-            <p><strong>Phone:</strong> <a href="tel:+27729918350">072 991 8350</a></p>
-            <p><strong>Email:</strong> <a href="mailto:mafanayako@gmail.com">mafanayako@gmail.com</a></p>
-            <p><strong>Service Areas:</strong> Cape Town & Western Cape</p>
-            <button class="btn-primary" onclick="location.href='tel:+27729918350';">Call Now</button>
-            <button class="btn-secondary" onclick="location.href='https://wa.me/27729918350';">WhatsApp</button>
-        </div>
-    </section>
+    <div class="services-grid">
+      <div class="service-card animate">
+        <h3>Tree Trimming</h3>
+        <p>Clean precise trimming for safety & healthy growth.</p>
+      </div>
+      <div class="service-card animate">
+        <h3>Tree Removal</h3>
+        <p>Safe removal of hazardous or unwanted trees.</p>
+      </div>
+      <div class="service-card animate">
+        <h3>Stump Grinding</h3>
+        <p>Remove stumps for clean landscaping.</p>
+      </div>
+      <div class="service-card animate">
+        <h3>Emergency Call-Out</h3>
+        <p>Fast response for storm-damaged trees.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 EasyFix Tree Services | Cape Town & Western Cape</p>
-        </div>
-    </footer>
+<!-- OUR WORK -->
+<section id="work">
+  <div class="container">
+    <h2 class="section-title">Our Recent Work</h2>
 
-    <!-- Sticky WhatsApp -->
-    <a href="https://wa.me/27729918350"
-       style="position:fixed; bottom:20px; right:20px; background:#25D366; color:#fff;
-              padding:14px; border-radius:50%; font-size:24px; text-decoration:none;">
-        💬
-    </a>
+    <div class="portfolio-gallery">
+      <img src="./tree-cutting-1.jpg" class="portfolio-image animate" alt="Tree cutting">
+      <img src="./tree-removal-1.jpg" class="portfolio-image animate" alt="Tree removal">
+      <img src="./tree-removal-crane.jpg" class="portfolio-image animate" alt="Crane tree removal">
+      <img src="./tree-trimming-1.jpg" class="portfolio-image animate" alt="Tree trimming">
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container contact-box animate">
+    <h2>Get in Touch</h2>
+    <p>Call or WhatsApp us for a free quote</p>
+
+    <a class="btn-primary" href="tel:+27729918350">Call Now</a>
+    <a class="btn-outline" href="https://wa.me/27729918350">WhatsApp</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 EasyFix Tree Services | Cape Town & Western Cape</p>
+</footer>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+<a class="floating-whatsapp" href="https://wa.me/27729918350">💬</a>
 
 </body>
 </html>
